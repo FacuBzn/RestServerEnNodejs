@@ -1,4 +1,6 @@
 #Para comenzar a crear un RestServer creamos con el comando
+    
+    Dato no menor es ``` npm install``` para reconstruir los modulos de Node
     *1- npm init -y
     (el archivo package.js que nos sera necesario).
     *2- npm install express
