@@ -23,3 +23,9 @@
     app.listen(port, () => {
         console.log(`Servidor corriendo en ->${port}, http://localhost:${port}/`)
     })*/
+
+    comandos basicos para subir los archivos. 
+    git init, para iniciar la captura, 
+    git add . para subir todos los archivos
+    git commit -m "agregar un comentario de lo que se hizo"
+    git push para subir el archivo
