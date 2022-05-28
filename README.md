@@ -9,6 +9,8 @@
     (config variables de entorno).
     *4- npm install cors
     (ciertas paginas webs puedan acceder a su rest api - proteger el servidor).
+    *5 npm i mongoose
+    (conexion con la base de datos, facilita las bases de datos)
 
     con poner dentro del app.js ya creamos nuestro WebServer o RestServer:
     /*const express = require('express');
