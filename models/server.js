@@ -12,7 +12,7 @@ class Server{
 
         //Conectar a la Base de datos
         this.conectarDataBase(); 
-        
+         
         //middlewares
         this.middlewares();
         

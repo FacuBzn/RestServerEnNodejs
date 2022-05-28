@@ -11,6 +11,10 @@
     (ciertas paginas webs puedan acceder a su rest api - proteger el servidor).
     *5 npm i mongoose
     (conexion con la base de datos, facilita las bases de datos)
+    *6 npm i bcryptjs
+    (herramienta para encriptar las contraseñas)
+    *7 npm i express-validator
+    (validar los campos - Gran colleccion de middlewares)
 
     con poner dentro del app.js ya creamos nuestro WebServer o RestServer:
     /*const express = require('express');
