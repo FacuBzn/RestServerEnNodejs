@@ -32,8 +32,13 @@ const UsuarioSchema = Schema({
         default: false
     }
 
+    
 })
 
+UsuarioSchema.methods.toJSON = function(){ // funcion que sirve para esconder parametros que estan en un json para que no aparezcan
+    const {__v, password, ...usuario } = this.toObject();
+    return usuario;
+}
 
 module.exports = model ( 'Usuario', UsuarioSchema);
 
